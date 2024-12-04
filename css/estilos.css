@@ -1,0 +1,293 @@
+body{
+    background-color: black;
+    color: white;
+    padding: 80px;
+    margin: 10px;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: 
+    "wdth" 100;
+    font-size: 30px;
+}
+
+h1,h2,h3{
+    font-size: 35px;
+    color: white;
+}
+.menu-icon{
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 10px;
+   
+}
+.bar{
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin: 6px 0;
+    background-color: rgb(255, 253, 253);
+}
+.menu{
+    max-width: 100%;
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.menu{
+    display: none;
+    text-decoration: none;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.863);
+    font-style: oblique;
+}
+.menu a{
+    float:none;
+    display: block;
+    color: rgba(255, 255, 255, 0.945);
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover{
+    background-color: rgb(184, 184, 184);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.105);
+    font-size: 25px;
+    padding: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.p1{
+    overflow: hidden;
+    text-align: left;
+    padding: 20px;
+}
+.imagen1{
+    float: right;
+    width: 30%;
+    height: auto;
+    text-align: center;
+}
+.p2{
+    overflow: hidden;
+    text-align: left;
+    padding: 20px;
+}
+.imagen2{
+    float: left;
+    width: 30%;
+    height: auto;
+    text-align: center;
+}
+.p3{
+    overflow: hidden;
+    text-align: left;
+    padding: 20px;
+}
+.imagen3{
+    float: right;
+    width: 25%;
+    height: auto;
+    text-align: center;
+}
+.caja{
+    background-color: rgba(0, 0, 0, 0.863);
+    padding: 70px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+}
+img{
+    max-width: 100%;
+    padding: 20px;
+}
+.imagenes{
+    display: grid;
+    text-align: center;
+}
+.gif img{
+    width: 70%;
+    height: auto;
+}
+header{
+    text-align: center;
+}
+
+.compraqui{
+    background-color: rgb(2, 2, 2);
+    color: white;
+    border-radius: 30px;
+    border: 1px solid;
+    padding: 10px;
+    transition: 0s;
+    text-align: center;
+    margin: 10px;
+}
+.compraqui:hover{
+    background-color: rgb(165, 165, 165);
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.sec3{
+    text-align: center;
+    
+}
+.sec2{
+    text-align: center;
+    
+}
+.sec1{
+    text-align: left;
+    
+}
+.enviar{
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border: 1px solid;
+    padding: 8px;
+    text-align: center;
+    margin: 10px;
+}
+.enviar:hover{
+    background-color: rgb(179, 181, 183);
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.compra{
+    text-align: center;
+}
+.formu{
+    padding: 30px;
+    text-align: center;
+}
+.redes{
+    text-align: center;
+}
+.testi{
+    background-color: rgba(255, 255, 255, 0.138);
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.redes img{
+    width: 80px;
+    height: auto;
+    transition: 0s;
+    padding: 10px;
+    
+}
+.redes img:hover{
+    width: 90px;
+    height: auto;
+}
+input{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+.ledger{
+    text-align: center;
+}
+.gif{
+    max-width: 100%;
+}
+@media screen and (max-width:600px){
+    h1,h2,h3{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .caja{
+        padding: 25px;
+    }
+    .redes img{
+        width: 60px;
+        height: auto;
+        padding: 4px;
+    }
+    .gif img{
+        width: 100%;
+    }
+    body{
+        padding: 10px;
+        font-size: 20px;
+    }
+    .container{
+        font-size: 20px;
+    }
+    .boton{
+        padding: 2px;
+        font-size: 8px;
+    }
+    .menu{
+        padding: 2px;
+    }
+    .menu a{
+        font-size: 15px;
+        padding: 2px;
+    }
+    .container{
+        font-size: 15px;
+        padding: 9px;
+        text-align: center;
+    }
+    .imagen1, .imagen2, .imagen3{
+        width: 90%;
+        margin: 5px;
+        float:initial;
+    }
+    .p1, .p2, .p3{
+        padding: 5px;
+    }
+}
+   
+
+@media screen and (max-width:800px) {
+    body{
+        padding: 20px;
+    }
+    .container{
+        font-size: 18px;
+        padding: 10px;
+        text-align: center;
+    }
+    .imagen1, .imagen2, .imagen3{
+        width: 50%;
+        margin: 5px;
+        float:none;
+    }
+    .p1, .p2, .p3{
+        padding: 5px;
+    }
+    .boton{
+        padding: 5px;
+        font-size: 15px;
+    }.menu{
+        padding: 4px;
+    }
+    .menu a{
+        font-size: 20px;
+        padding: 2px;
+    }
+}
+@media screen and (max-width:900px) {
+     .imagen1, .imagen2, .imagen3{
+        width: 60%;
+        margin: 5px;
+        float:initial;
+    }
+}
